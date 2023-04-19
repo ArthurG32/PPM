@@ -428,6 +428,7 @@
             <!--end sidebar-->
         </header>
         <div class="container text-center">
+            <!-- la Repubblica and date zone -->
             <img src="images\logo_la_repubblica.png">
             <footer class="bg-white py-3">
                 <div class="container align-items-center">
@@ -448,6 +449,7 @@
                     </div>
                 </div>
             </footer>
+            <!-- end la Repubblica and date zone -->
             <script>
                 // Obter a data e hora atual
                 var now = new Date();
@@ -479,8 +481,9 @@
             </style>
 
             <div class="container border">
-                <div class="dropdown ">
-                    <div class="row p-2">
+                <!-- dropdowns -->
+                <div class="dropdown">
+                    <div class="row py-2">
                         <div class="col">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                 <strong>Sezioni</strong>
@@ -721,7 +724,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- end dropdowns -->
 
+                <!-- blue row -->
                 <div class="row bg-custom p-2">
                     <div class="col">
                         Ucraina
@@ -748,7 +753,9 @@
                         Mutui
                     </div>
                 </div>
+                <!-- end blue row -->
                 <p></p>
+                <!-- football results -->
                 <div class="row">
                     <div class="col">
                         <img src="images/chelsea_madrid.png">
@@ -767,9 +774,11 @@
                     </div>
                 </div>
                 <p></p>
+                <!-- end football results -->
                 <div class="container-fluid">
+                    <!-- left container -->
                     <div class="row">
-                        <div class="col-md-8"> <!-- left container -->
+                        <div class="col-md-8">
                             <hr>
                             <div class="row">
                                 <div class="col">
@@ -830,10 +839,21 @@
                                 </div>
                             </div>
                             <hr>
-
-
                         </div>
-                        <div class="col-md-4 bg-custom2 sticky-top"> <!-- right container -->
+                        <!-- end left container -->
+                        <style>
+                            .hr_orange {
+                                background-color: orange;
+                                height: 1px;
+                                border: none;
+                            }
+
+                            .orange {
+                                color: orange;
+                            }
+                        </style>
+                        <!-- right container -->
+                        <div class="col-md-4 bg-custom2 ">
                             <hr>
                             <h4 class="p-2">Video</h4>
                             <img src="images/video_right_container.png">
@@ -843,13 +863,63 @@
                             <img src="images/noticia_metropolis.png">
                             <h6 class="p-2 text-primary">METROPOLIS/LA CLIP</h6>
                             <h5 class="p-2">Migranti, Nardella (Pd): "Il governo la spara sempre più grossa per nascondere le difficoltà"</h5>
+                            <div class="hr_orange"></div>
+                            <h5 class="pt-2 orange">Editoriali & Commenti</h5>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/comentario_1.png">
+                                </div>
+                                <div class="col text-start">
+                                    <h6>Il commento</h6>
+                                    <hr>
+                                    <h6 class="orange">di Francesco Bei</h6>
+                                    <h5>La sostituzione etnica e il peso delle parole</h5>
+                                </div>
+                            </div>
+                            <p></p>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/comentario_2.png">
+                                </div>
+                                <div class="col text-start">
+                                    <h6>La guerra</h6>
+                                    <hr>
+                                    <h6 class="orange">di Richard Haass, Charles A. Kupchan</h6>
+                                    <h5>È ora di cambiare la strategia sull’Ucraina</h5>
+                                </div>
+                            </div>
+                            <p></p>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/comentario_3.png">
+                                </div>
+                                <div class="col text-start">
+                                    <h6>Le nomine</h6>
+                                    <hr>
+                                    <h6 class="orange">di Luigi Zanda</h6>
+                                    <h5>La lezione dell'Iri e il confronto con il passato</h5>
+                                </div>
+                            </div>
+                            <p></p>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/comentario_4.png">
+                                </div>
+                                <div class="col text-start">
+                                    <h6>Il commento</h6>
+                                    <hr>
+                                    <h6 class="orange">di Chiara Valerio</h6>
+                                    <h5>Dal premio all'intelligenza artificiale alla sostituzione etnica di Lollobrigida: cose generate da altre cose</h5>
+                                </div>
+                            </div>
                         </div>
+                        <!-- end right container -->
                     </div>
                 </div>
-
             </div>
         </div>
-
+        <!-- footer -->
         <footer class="bg-dark p-3">
             <div class="container text-light">
                 <h6>Fai di Repubblica la tua homepage | Mappa del sito | Redazione | Scriveteci | Per inviare foto e video | Servizio Clienti | Pubblicità | Cookie Policy | Privacy | Codice Etico e Best Practices</h6>
@@ -860,6 +930,6 @@
                 <h6>GEDI News Network S.p.A.  -  P.Iva 01578251009 - ISSN 2499-0817</h6>
             </div>
         </footer>
-
+        <!-- end footer -->
     </body>
 </html>
