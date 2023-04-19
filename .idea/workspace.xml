@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e45c28-1c94-4104-818b-197fef8bbd65" name="Changes" comment="navbar e sidebar">
+    <list default="true" id="82e45c28-1c94-4104-818b-197fef8bbd65" name="Changes" comment="Sidebar quase pronta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681739320160</updated>
-      <workItem from="1681739321364" duration="39210000" />
+      <workItem from="1681739321364" duration="46147000" />
     </task>
     <task id="LOCAL-00001" summary="first steps">
       <created>1681740159128</created>
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681829512663</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sidebar quase pronta">
+      <created>1681900021020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681900021020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first steps" />
     <MESSAGE value="navbar e sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar e sidebar" />
+    <MESSAGE value="Sidebar quase pronta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar quase pronta" />
   </component>
 </project>

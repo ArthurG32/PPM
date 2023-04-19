@@ -22,3 +22,7 @@
     pointer-events: none;
     color: #aaa;
 }
+.dropdown-menu {
+    width: 100%;
+}
+
