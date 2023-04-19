@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e45c28-1c94-4104-818b-197fef8bbd65" name="Changes" comment="first steps">
+    <list default="true" id="82e45c28-1c94-4104-818b-197fef8bbd65" name="Changes" comment="navbar e sidebar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681739320160</updated>
-      <workItem from="1681739321364" duration="27119000" />
+      <workItem from="1681739321364" duration="39210000" />
     </task>
     <task id="LOCAL-00001" summary="first steps">
       <created>1681740159128</created>
@@ -65,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681740159129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="navbar e sidebar">
+      <created>1681828728231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681828728231</updated>
+    </task>
+    <task id="LOCAL-00003" summary="navbar e sidebar">
+      <created>1681829512663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681829512663</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="first steps" />
+    <MESSAGE value="navbar e sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar e sidebar" />
   </component>
 </project>

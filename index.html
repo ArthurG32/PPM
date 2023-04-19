@@ -18,7 +18,7 @@
 <body>
     <header>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-white bg-white">
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarsExample07">
                     <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -30,19 +30,14 @@
                             <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="images/icon_lupa.png">
                             </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="input-group my-1">
-                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button">Button</button>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                            <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append ">
+                                    <button class="btn btn-outline-secondary" type="button">Cerca</button>
+                                </div>
+                            </div>
                         </li>
                     </ul>
-
                     <div class="ms-auto">
                         <a class="nav-link" href="#"><img src="images/icon_abbonati.png"></a>
                     </div>
@@ -64,40 +59,354 @@
                 </div>
             </div>
         </nav>
+        <hr>
         <!--end navbar-->
         <!--sidebar-->
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
                 <a class="nav-link" href="index.html"><img src="images/icon_R_sidebar.png"></a>
                 <div class="main">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Ricerca su Repubblica">
-                        <div class="input-group-append">
-                            <button type="button" class="btn btn-outline-secondary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                                </svg>
-                                <span class="visually-hidden">Button</span>
-                            </button>
+                        <div class="input-group-prepend">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search mx-1" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                            </svg>
+                            <span class="visually-hidden">Button</span>
                         </div>
                     </div>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-0 border-bottom" placeholder="">
+                            <div class="input-group-append">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search mx-1" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mx-auto">
+                        <p class="text-primary small">TUTTE LE PREVIONI</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="offcanvas-body">
-                <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                </div>
-                <div class="dropdown mt-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
+                <ul class="list-group list-unstyled">
+                    <li class="list-group-item">
+                        <img src="images/icon_R.png">
+                        <strong>CONTENUTI PER GLI ABBONATI</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>GEDI SMILE</strong>
+                    </li>
+                    <li>
+                        <div class="container">
+                            <div class="row my-2">
+                                <div class="col">
+                                    <strong>SEZIONI</strong>
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Biblioteca
+                                </div>
+                                <div class="col">
+                                    Commenti
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Cronaca
+                                </div>
+                                <div class="col">
+                                    Cultura
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Design
+                                </div>
+                                <div class="col">
+                                    Economia
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Enigmistica
+                                </div>
+                                <div class="col">
+                                    Esteri
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Giochi
+                                </div>
+                                <div class="col">
+                                    Green&Blue
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Il Gusto
+                                </div>
+                                <div class="col">
+                                    La Zampa
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Londra
+                                </div>
+                                <div class="col">
+                                    Moda e Beauty
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Mondo Solidale
+                                </div>
+                                <div class="col">
+                                    Motori
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Podcast
+                                </div>
+                                <div class="col">
+                                    Politica
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    RepTv
+                                </div>
+                                <div class="col">
+                                    Rubriche
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Salute
+                                </div>
+                                <div class="col">
+                                    Scienze
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Scuola
+                                </div>
+                                <div class="col">
+                                    Repubblica@Scuola
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Robinson
+                                </div>
+                                <div class="col">
+                                    Serie Tv
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Spettacoli
+                                </div>
+                                <div class="col">
+                                    Sport
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Tecnologia
+                                </div>
+                                <div class="col">
+                                    Vaticano
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Viaggi
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Roma
+                                </div>
+                                <div class="col">
+                                    Milano
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Bari
+                                </div>
+                                <div class="col">
+                                    Bologna
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Firenze
+                                </div>
+                                <div class="col">
+                                    Genova
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Napoli
+                                </div>
+                                <div class="col">
+                                    Palermo
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Parma
+                                </div>
+                                <div class="col">
+                                    Torino
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row my-2">
+                                <div class="col">
+                                    <strong>SPECIALI</strong>
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Oncologia
+                                </div>
+                                <div class="col">
+                                    Salute Seno
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Giochi senza barriere
+                                </div>
+                                <div class="col">
+                                    Europa, Italia
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Repubblica dei cavalli
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row my-2">
+                                <div class="col">
+                                    <strong>INSERTI</strong>
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Affari&Finanza
+                                </div>
+                                <div class="col">
+                                    D
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Il Venerdi
+                                </div>
+                                <div class="col">
+                                    L'Espresso
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Robinson
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row my-2">
+                                <div class="col">
+                                    <strong>Servizi</strong>
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Annunci
+                                </div>
+                                <div class="col">
+                                    Aste
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Giochi e Scommesse
+                                </div>
+                                <div class="col">
+                                    Guida Tv
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Ilmiolibro
+                                </div>
+                                <div class="col">
+                                    Lavoro
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Meteo
+                                </div>
+                                <div class="col">
+                                    Necrologie
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Oroscopo
+                                </div>
+                                <div class="col">
+                                    Repubblica +
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Joy.it
+                                </div>
+                                <div class="col">
+                                    Consigli.it
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Dizionari
+                                </div>
+                                <div class="col">
+                                    Ricette
+                                </div>
+                            </div>
+                            <div class="row text-secondary my-2">
+                                <div class="col">
+                                    Newsletter
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <!--end sidebar-->
