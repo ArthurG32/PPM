@@ -463,6 +463,9 @@
                 if (minutes < 10) {
                     minutes = '0' + minutes;
                 }
+                if (hours < 10) {
+                    hours = '0' + hours;
+                }
 
                 // Formatar a data e hora no formato desejado
                 var formattedDate = date + ' ' + month + ' ' + year + ' - Updated at ' + hours + '.' + minutes;
@@ -472,7 +475,7 @@
             </script>
             <style>
                 .bg-custom {
-                    background-color: #d7ebf2;
+                    background-color: #EAF4FF;
                 }
 
                 .bg-custom2 {
@@ -763,7 +766,13 @@
                 <!-- end dropdowns -->
 
                 <!-- blue row -->
-                <div class="row bg-custom p-2">
+                <style>
+                    .blue_row {
+                        border-bottom: 2px solid orange;
+                    }
+                </style>
+
+                <div class="row bg-custom py-2 blue_row">
                     <div class="col">
                         Ucraina
                     </div>
@@ -845,7 +854,7 @@
                                     <h6 class="p-2 text-primary ">LA MOBILITAZIONE</h6>
                                     <h3>Trentino, Fugatti firma il decreto per l'abbattimento dell'orso Mj5. Attesa per la sorte di JJ4, i veterinari: "No all'eutanasia"</h3>
                                 </div>
-                                <div class="col">
+                                <div class="container col" style="width: 50px">
                                     <img src="images/noticia_urso.png">
                                 </div>
                             </div>
@@ -871,7 +880,9 @@
                                     <p>di Giovanna Vitale</p>
                                 </div>
                                 <div class="col">
-                                    <img src="images/noticia_sondaggio.png">
+                                    <div class="container" style="width: 300px;">
+                                        <img src="images/noticia_sondaggio.png" class="img-fluid">
+                                    </div>
                                 </div>
                             </div>
                             <hr>
